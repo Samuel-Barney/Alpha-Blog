@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+<h1>Alpha-Blog</h1>
+</div>
+
+<div id="nav">
+<%= link_to 'About', about_path %><br>
+</div>
+
+<div id="section">
+<h2>Homepage</h2>
+<p>Welcome to the Alpha-Blog homepage. </p>
+<p>My name is Samuel Barney and I'm training to become a Ruby on Rails developer.
+  So far I love Ruby and can see that it is a very powerful language. While I've spent
+  even less time with Rails, I am beyond impressed by the default application and easy to navigate framework.</p>
+</div>
+
+
+<div id="footer">
+The Complete Ruby on Rails Developer Course
+</div>
+
+</body>
+</html>
